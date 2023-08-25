@@ -1,5 +1,4 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
 
 export const Footer: React.FC = () => {
   // Auth layout logic here

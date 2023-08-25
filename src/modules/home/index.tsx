@@ -1,5 +1,7 @@
+import LineChart from '@/components/admin/chart/line_chart';
+
 export const HomePage = () => {
-  return 'home page';
+  return <LineChart />;
 };
 
 export default HomePage;

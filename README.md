@@ -147,7 +147,7 @@ const api = createApi({
 ## parsing csv to string
 
 
-[help](https://contactmentor.com/react-js-convert-csv-to-json/?expand_article=1)
+[Convert CSV to JSON or JSON to CSV format](https://contactmentor.com/react-js-convert-csv-to-json/?expand_article=1)
 
 ### help
 - [Redux-toolkit-query](https://blog.bitsrc.io/frontend-caching-with-redux-toolkit-query-14e008a632b1)
