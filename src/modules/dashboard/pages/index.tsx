@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import {
-  // Carousel,
+  SlideCarousel,
   RecentRegister,
   SalesOverview,
   TopSection,
@@ -14,7 +14,7 @@ export const DashboardPage: React.FC = () => {
 
       <div className='flex flex-wrap mt-6 -mx-3'>
         <SalesOverview />
-        {/* <Carousel /> */}
+        <SlideCarousel />
       </div>
 
       <div className='flex flex-wrap mt-6 -mx-3'>

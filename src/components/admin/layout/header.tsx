@@ -1,4 +1,5 @@
 import React from 'react';
+import { team_2 } from '@/assets/img';
 
 export const Header: React.FC = () => {
   // Auth layout logic here
@@ -48,7 +49,7 @@ export const Header: React.FC = () => {
           <ul className='flex flex-row justify-end pl-0 mb-0 list-none md-max:w-full'>
             <li className='flex items-center'>
               <a
-                href='./pages/sign-in.html'
+                href='#'
                 className='block px-0 py-2 text-sm font-semibold text-white transition-all ease-nav-brand'
               >
                 <i className='fa fa-user sm:mr-1'></i>
@@ -59,7 +60,7 @@ export const Header: React.FC = () => {
               <a
                 href='#'
                 className='block p-0 text-sm text-white transition-all ease-nav-brand'
-                sidenav-trigger
+                sidenav-trigger='true'
               >
                 <div className='w-4.5 overflow-hidden'>
                   <i className='ease mb-0.75 relative block h-0.5 rounded-sm bg-white transition-all'></i>
@@ -70,7 +71,7 @@ export const Header: React.FC = () => {
             </li>
             <li className='flex items-center px-4'>
               <a href='#' className='p-0 text-sm text-white transition-all ease-nav-brand'>
-                <i fixed-plugin-button-nav className='cursor-pointer fa fa-cog'></i>
+                <i fixed-plugin-button-nav='true' className='cursor-pointer fa fa-cog'></i>
               </a>
             </li>
 
@@ -79,25 +80,28 @@ export const Header: React.FC = () => {
               <a
                 href='#'
                 className='block p-0 text-sm text-white transition-all ease-nav-brand'
-                dropdown-trigger
+                dropdown-trigger='true'
                 aria-expanded='false'
               >
                 <i className='cursor-pointer fa fa-bell'></i>
               </a>
 
               <ul
-                dropdown-menu
+                dropdown-menu='true'
                 className="text-sm transform-dropdown before:font-awesome before:leading-default before:duration-350 before:ease lg:shadow-3xl duration-250 min-w-44 before:sm:right-8 before:text-5.5 pointer-events-none absolute right-0 top-0 z-50 origin-top list-none rounded-lg border-0 border-solid border-transparent dark:shadow-dark-xl dark:bg-slate-850 bg-white bg-clip-padding px-2 py-4 text-left text-slate-500 opacity-0 transition-all before:absolute before:right-2 before:left-auto before:top-0 before:z-50 before:inline-block before:font-normal before:text-white before:antialiased before:transition-all before:content-['\f0d8'] sm:-mr-6 lg:absolute lg:right-0 lg:left-auto lg:mt-2 lg:block lg:cursor-pointer"
               >
                 <li className='relative mb-2'>
                   <a
                     className='dark:hover:bg-slate-900 ease py-1.2 clear-both block w-full whitespace-nowrap rounded-lg bg-transparent px-4 duration-300 hover:bg-gray-200 hover:text-slate-700 lg:transition-colors'
-                    href='javascript:;'
+                    href='#'
+                    onClick={(e) => {
+                      e.preventDefault();
+                    }}
                   >
                     <div className='flex py-1'>
                       <div className='my-auto'>
                         <img
-                          src='./assets/img/team-2.jpg'
+                          src={team_2}
                           className='inline-flex items-center justify-center mr-4 text-sm text-white h-9 w-9 max-w-none rounded-xl'
                         />
                       </div>

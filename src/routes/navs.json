@@ -1,0 +1,439 @@
+[
+  {
+    "icon": "text-sm leading-normal text-blue-500 ni ni-shop",
+    "label": "Dashboards",
+    "path": "/",
+    "isSections": false,
+    "childs": [
+      {
+        "icon": "text-sm leading-normal text-blue-500 ni ni-shop",
+        "label": "Dashboards",
+        "path": "/"
+      }
+    ]
+  },
+  {
+    "icon": "",
+    "label": "PAGES",
+    "path": "",
+    "isSections": true
+  },
+  {
+    "icon": "text-sm leading-normal text-orange-500 ni ni-ungroup",
+    "label": "Pages",
+    "path": "/pages",
+    "isSections": false,
+    "childs": [
+      {
+        "icon": "",
+        "label": "Profile",
+        "path": "/pages/profile",
+        "isSections": false,
+        "childs": [
+          {
+            "icon": "",
+            "label": "Profile Overview",
+            "path": "/pages/profile/profile-overview",
+            "isSections": false
+          },
+          {
+            "icon": "",
+            "label": "Teams",
+            "path": "/pages/profile/teams",
+            "isSections": false
+          },
+          {
+            "icon": "",
+            "label": "All Projects",
+            "path": "/pages/profile/all-projects ",
+            "isSections": false
+          }
+        ]
+      },
+      {
+        "icon": "",
+        "label": "Users",
+        "path": "/pages/users",
+        "isSections": false,
+        "childs": [
+          {
+            "icon": "",
+            "label": "Reports",
+            "path": "/pages/users/reports",
+            "isSections": false
+          },
+          {
+            "icon": "",
+            "label": "New User",
+            "path": "/pages/users/new-user ",
+            "isSections": false
+          }
+        ]
+      },
+      {
+        "icon": "",
+        "label": "Account",
+        "path": "/pages/accounts",
+        "isSections": false,
+        "childs": [
+          {
+            "icon": "",
+            "label": "Reports",
+            "path": "/pages/accounts/reports",
+            "isSections": false
+          },
+          {
+            "icon": "",
+            "label": "Settings",
+            "path": "/pages/accounts/settings",
+            "isSections": false
+          },
+          {
+            "icon": "",
+            "label": "Billing",
+            "path": "/pages/accounts/billing",
+            "isSections": false
+          },
+          {
+            "icon": "",
+            "label": "Invoice",
+            "path": "/pages/accounts/invoice",
+            "isSections": false
+          },
+          {
+            "icon": "",
+            "label": "Security",
+            "path": "/pages/accounts/security",
+            "isSections": false
+          }
+        ]
+      },
+      {
+        "icon": "",
+        "label": "Projects",
+        "path": "/pages/projects",
+        "isSections": false,
+        "childs": [
+          {
+            "icon": "",
+            "label": "Pricing Page",
+            "path": "/pages/projects/pricing-page",
+            "isSections": false
+          },
+          {
+            "icon": "",
+            "label": "Chat",
+            "path": "/pages/projects/chat",
+            "isSections": false
+          },
+          {
+            "icon": "",
+            "label": "Sweet Alerts",
+            "path": "/pages/projects/sweet-alerts",
+            "isSections": false
+          },
+          {
+            "icon": "",
+            "label": "Notifications",
+            "path": "/pages/accounts/notifications",
+            "isSections": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "icon": "text-sm leading-normal ni ni-ui-04 text-cyan-500",
+    "label": "Applications",
+    "path": "/applications",
+    "isSections": false,
+    "childs": [
+      {
+        "icon": "",
+        "label": "Kanban",
+        "path": "/applications/kanban",
+        "isSections": false
+      },
+      {
+        "icon": "",
+        "label": "Wizard",
+        "path": "/applications/wizard",
+        "isSections": false
+      },
+      {
+        "icon": "",
+        "label": "DataTables",
+        "path": "/applications/dataTables",
+        "isSections": false
+      },
+      {
+        "icon": "",
+        "label": "Calendar",
+        "path": "/applications/calendar",
+        "isSections": false
+      },
+      {
+        "icon": "",
+        "label": "Analytics",
+        "path": "/applications/analytics",
+        "isSections": false
+      }
+    ]
+  },
+  {
+    "icon": "text-sm leading-normal ni ni-archive-2 text-emerald-500",
+    "label": "Ecommerce",
+    "path": "/ecommerce",
+    "isSections": false,
+    "childs": [
+      {
+        "icon": "",
+        "label": "Overview",
+        "path": "/ecommerce/overview",
+        "isSections": false
+      },
+      {
+        "icon": "",
+        "label": "Products",
+        "path": "/ecommerce/products",
+        "isSections": false,
+        "childs": [
+          {
+            "icon": "",
+            "label": "New Product",
+            "path": "/ecommerce/new-product",
+            "isSections": false
+          },
+          {
+            "icon": "",
+            "label": "Edit Product",
+            "path": "/ecommerce/edit-product",
+            "isSections": false
+          },
+          {
+            "icon": "",
+            "label": "Product Page",
+            "path": "/ecommerce/product-page",
+            "isSections": false
+          },
+          {
+            "icon": "",
+            "label": "Products List",
+            "path": "/ecommerce/product-list",
+            "isSections": false
+          }
+        ]
+      },
+      {
+        "icon": "",
+        "label": "Orders",
+        "path": "/ecommerce/orders",
+        "isSections": false,
+        "childs": [
+          {
+            "icon": "",
+            "label": "Order List",
+            "path": "/ecommerce/order-list",
+            "isSections": false
+          },
+          {
+            "icon": "",
+            "label": "Order Details",
+            "path": "/ecommerce/order-details",
+            "isSections": false
+          },
+          {
+            "icon": "",
+            "label": "Referral",
+            "path": "/ecommerce/referral",
+            "isSections": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "icon": "text-sm leading-normal text-red-600 ni ni-single-copy-04",
+    "label": "Authentication",
+    "path": "/authentication",
+    "isSections": false,
+    "childs": [
+      {
+        "icon": "",
+        "label": "Sign In",
+        "path": "/authentication/sign-inew",
+        "isSections": false
+      },
+      {
+        "icon": "",
+        "label": "Sign Up",
+        "path": "/authentication/sign-up",
+        "isSections": false
+      },
+      {
+        "icon": "",
+        "label": "Reset Password",
+        "path": "/authentication/reset-password",
+        "isSections": false
+      },
+      {
+        "icon": "",
+        "label": "2-Step Verification",
+        "path": "/authentication/2-atep-verification",
+        "isSections": false
+      },
+      {
+        "icon": "",
+        "label": "Error",
+        "path": "/authentication/error",
+        "isSections": false
+      }
+    ]
+  },
+  {
+    "icon": "",
+    "label": "DOCS",
+    "path": "",
+    "isSections": true
+  },
+  {
+    "icon": "text-sm leading-normal text-red-600 ni ni-single-copy-04",
+    "label": "Basic",
+    "path": "/basic",
+    "isSections": false,
+    "childs": [
+      {
+        "icon": "",
+        "label": "Getting Started",
+        "path": "/basic/getting-started",
+        "isSections": false,
+        "childs": [
+          {
+            "icon": "",
+            "label": "Quick Start",
+            "path": "/basic/getting-started/quick-start",
+            "isSections": false
+          },
+          {
+            "icon": "",
+            "label": "License",
+            "path": "/basic/getting-started",
+            "isSections": false
+          },
+          {
+            "icon": "",
+            "label": "Contents",
+            "path": "/basic/getting-started/contents",
+            "isSections": false
+          }
+        ]
+      },
+      {
+        "icon": "",
+        "label": "Foundation",
+        "path": "/basic/foundation",
+        "isSections": false,
+        "childs": [
+          {
+            "icon": "",
+            "label": "Colors",
+            "path": "/basic/foundation/colors",
+            "isSections": false
+          },
+          {
+            "icon": "",
+            "label": "Typography",
+            "path": "/basic/foundation/typography",
+            "isSections": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "icon": "text-sm leading-normal ni ni-app text-slate-700/80",
+    "label": "Components",
+    "path": "/components",
+    "isSections": false,
+    "childs": [
+      {
+        "icon": "",
+        "label": "Alerts",
+        "path": "/components/alerts",
+        "isSections": false
+      },
+      {
+        "icon": "",
+        "label": "Badge",
+        "path": "/components/badge",
+        "isSections": false
+      },
+      {
+        "icon": "",
+        "label": "Buttons",
+        "path": "/components/buttons",
+        "isSections": false
+      },
+      {
+        "icon": "",
+        "label": "Card",
+        "path": "/components/card",
+        "isSections": false
+      },
+      {
+        "icon": "",
+        "label": "Collapse",
+        "path": "/components/collapse",
+        "isSections": false
+      },
+      {
+        "icon": "",
+        "label": "Dropdowns",
+        "path": "/components/dropdowns",
+        "isSections": false
+      },
+      {
+        "icon": "",
+        "label": "Forms",
+        "path": "/components/forms",
+        "isSections": false
+      },
+      {
+        "icon": "",
+        "label": "Modal",
+        "path": "/components/modal",
+        "isSections": false
+      },
+      {
+        "icon": "",
+        "label": "Navs",
+        "path": "/components/navs",
+        "isSections": false
+      },
+      {
+        "icon": "",
+        "label": "Progress",
+        "path": "/components/progressvs",
+        "isSections": false
+      },
+      {
+        "icon": "",
+        "label": "Tables",
+        "path": "/components/tables",
+        "isSections": false
+      },
+      {
+        "icon": "",
+        "label": "Tooltips",
+        "path": "/components/tooltips ",
+        "isSections": false
+      }
+    ]
+  },
+  {
+    "icon": "text-sm leading-normal ni ni-align-left-2 text-slate-700/80",
+    "label": "Changelog",
+    "path": "/changelog",
+    "isSections": false
+  }
+]
